@@ -1,0 +1,38 @@
+#hd5{
+	border: 1px ;
+	width: 1400px;
+	height: 60px;	
+}
+#bd5{
+	border: 1px ;
+	width: 1400px;
+	height: 259px;
+}
+#hd5 .tit-left-line{
+	width: 1400px;
+}
+#hd5 ul {
+	position: absolute;
+	top: -10px;
+	left: 1000px;
+	float: right;
+}
+#hd5 ul li{
+	float: right;
+	margin: 20px;
+}
+#hd5 ul li a{
+	font-size: 15px;
+	color: #64788c;
+	text-decoration: none;
+}
+#hd5 ul li a:hover{
+	color: #1479d7;
+}
+.border{
+	border: 0.5px solid #64788c;
+	height: 16px;
+}
+#bd5 a{
+	margin: 8px;
+}

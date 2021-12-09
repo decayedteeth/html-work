@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<style type="text/css">
+				#outside{
+					/*总框框*/
+					border: 1px solid red;
+					width: 1400px;
+					height: 2000px;
+					position: absolute;
+					left: 125px;
+					list-style: none;
+				}
+				div #left{
+					border: 1px solid black;
+					position: absolute;
+					width: 435px;
+					height: 1998px;
+				}
+				div #mid{
+					border: 1px solid black;
+					position: absolute;
+					width: 435px;
+					height: 1998px;
+					left: 435px;
+				}
+				div #right{
+					border: 1px solid black;
+					position: absolute;
+					width: 530px;
+					height: 1998px;
+					left: 870px;
+				}
+				div div #hd{
+				/*头部*/
+					border: 1px solid blue;
+					position: absolute;
+					width: 435px;
+					height: 50px;
+					float: left;
+					font-size: 12px;
+				}
+				div div div #hd1{
+					position: absolute;
+					left: 15px;
+					top: 0px;
+				}
+				div div div #hd2{
+					position: absolute;
+					left: 105px;
+					top: 0px;
+				}
+				div div div #hd3{
+					position: absolute;
+					left: 205px;
+					top: 0px;
+				}
+				div div div #weather{
+					position: absolute;
+					left: 305px;
+					top: 10px;
+				}
+				div div div #span1{
+					border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					left: 75px;
+					top: 20px;
+					
+				}
+				div div div #span2{
+					border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					top: 20px;
+					left: 180px;
+				}
+				#left1{
+					/*左边正文*/
+					border: 1px solid green;
+					height: 1000px;
+					width: 435px;
+					position: absolute;
+					top: 50px;
+					left: 0px;
+				}
+				li{
+					list-style: none;
+				div div div div #touch{
+				}
+				#bold{
+					/*字体加粗专用*/
+					font-weight: 800;
+				}
+			</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="outside">
+			<div id="left">
+				<!--左边部分-->
+				<div id="hd">
+					<h2 id="hd1"><a href="https://news.qq.com/" target="_blank">要闻</a></h2>
+					<span id="span1"></span>
+					<h2 id="hd2"><a href="https://new.qq.com/ch/antip/" target="_blank">抗肺炎</a></h2>
+					<span id="span2"></span>
+					<h2 id="hd3"><a href="https://gd.qq.com/">广东新闻</a></h2>
+					<a href="https://tianqi.qq.com/?province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E4%B8%9C%E8%8E%9E%E5%B8%82" target="_blank" id="weather"><img src="天气.jpg"/></a>
+				</div>
+				<!--头部-->
+				<div id="bd">
+				<!--正文-->
+					<div id="left1">
+						<!--真文左边框框-->
+						<ul id="touch">
+							<li id="bold"><a href="https://new.qq.com/omn/20200528/20200528A03RCO00.html" target="_blank">问答情深——他们让总书记日夜牵挂</a></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="mid"></div>
+			<div id="right"></div>
+		</div>
+	</body>
+</html>

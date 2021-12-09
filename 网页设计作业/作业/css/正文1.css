@@ -1,0 +1,166 @@
+.first{
+	/*第一行*/
+	font-size: 24px ;
+	font-weight: 800;
+}
+.bd a{
+	/*内容*/
+	line-height: 40px;
+}
+#outside #left .bd #left1 ul li{
+	/*去掉前面的点*/
+	list-style: none;
+}
+#outside #left .bd #left1 ul li a{
+	/*默认颜色和去掉下面的横线*/
+	color: black;
+	text-decoration: none;
+}
+#outside #left .bd #left1 ul li a:hover{
+	/*正文1触碰变色*/
+	color: #1479d7;
+	text-decoration: none;
+}
+#outside #left .bd a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+#outside #left .hd h2 a{
+	color: black;
+	text-decoration: none;
+}
+#outside #left .hd h2 a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+#outside #left .bd #left1 ul li div a #newsphoto{
+	position: absolute;
+	top: 450px;
+	left: 10px;
+}
+#outside #mid .hd1 {
+	/*中间正文1标题框框*/
+	border: 1px ;
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#outside #mid .bd1{
+	/*中间正文1框框*/
+	border: 1px ;
+	width: 500px;
+	height: 1050px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+.tit{
+	/*今日话题专用*/
+	
+	font-size: 27px;
+	color: #1479d7;
+	text-decoration: underline;
+}
+ul li{
+	/*把所有点取消掉*/
+	list-style: none;
+}
+.bd1 a{
+	line-height: 40px;
+	color: black;
+	text-decoration: none;
+}
+.bd1 a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+#newsword3{
+	position: absolute;
+	left: 245px;
+	top: 340px;
+}
+#newsword4{
+	position: absolute;
+	left: 245px;
+	top: 720px;
+}
+
+.f14{
+	/*正文右上角*/
+	border: 1px ;
+	width:460px ;
+	height: 145px;
+	position: absolute;
+	left: 938px;
+}
+.f14 ul li{
+	/*每一行*/
+	border: 1px solid #cae0f3;
+	width: 460px;
+	height: 35px;
+	line-height: 33px;
+}
+.f14 ul li a{
+	text-decoration: none;
+	color: black;
+}
+.f14 ul li a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+.f14 ul .pord-1{
+	word-spacing: 14px ;
+}
+.f14 ul .pord-2{
+	word-spacing: 8px;
+}
+.f14 ul .pord-3{
+	word-spacing: 7px;
+}
+.f14 ul .pord-4{
+	word-spacing: 17px;
+}
+.tit a{
+	position: absolute;
+	top: 15px;
+	line-height align-self:25px;
+	font-size: 27px;
+	color: #1479d7;
+	text-decoration: underline;
+}
+#fr a{
+	position: absolute;
+	top: 20px;
+	left:140px ;
+	color: black;
+	text-decoration: none;
+}
+#fr a :hover{
+	color #1479d7:;
+	text-decoration: none;
+}
+#bd4 ul li a{
+	text-decoration: none;
+	color: black;
+	line-height: 38px;
+}
+#bd4 ul li a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+#newsphoto3{
+	position: absolute;
+	left: 220px;
+	top: 43px;
+}
+.bd2 ul li a{
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+}
+.bd2 ul li :hover{
+	text-decoration: none;
+	color: #1479d7;
+}

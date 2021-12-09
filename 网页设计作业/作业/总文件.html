@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/正文1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/正文2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/边框.css"/>
+		<link rel="stylesheet" type="text/css" href="css/视觉焦点.css"/>
+		<link rel="stylesheet" type="text/css" href="css/视频.css"/>
+		<link rel="stylesheet" type="text/css" href="css/正文3.css"/>
+		<link rel="stylesheet" type="text/css" href="css/高清组图.css"/>
+		<link rel="stylesheet" type="text/css" href="css/最后.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div #head{
+				/*背景头顶*/
+				position: absolute;
+				top: 0px;
+			}
+			ul.sousuo{
+				/*搜索大框*/
+				border: 2px solid white;
+				width: 1400px;
+				height: 60px;
+				position: absolute;
+				top: 75px;
+				left: 120px;
+				z-index: 1;
+			}
+			div ul a #search{
+				margin:30px ;
+				width: 210px;
+				height: 35px;
+				border: 1px solid white;
+			}
+			div a #sousuokuang{
+				position: absolute;
+				top: 95px;
+				left: 700px;
+				z-index: 2;
+			}
+			div ul #right{
+				float: right;
+				position: relative;
+				width: 45px;
+				top: 10px;
+			}
+			div div #qiche1{
+				/*上层广告1*/
+				position: absolute;
+				top: 200px;
+				left: 120px;
+			}
+			div div #wangjin1{
+				/*上层广告2*/
+				position: absolute;
+				top: 215px;
+				left: 1075px;
+			}
+			div #outside{
+					/*正文总框框*/
+					border: 1px ;
+					width: 1400px;
+					height: 1140px;
+					position: absolute;
+					left: 125px;
+					list-style: none;
+					top: 300px;
+				}
+			 div div #left{
+			 	/*左边正文*/
+					border: 1px ;
+					height: 1100px;
+					width: 435px;
+					position: absolute;
+					top: 0px;
+					left: 0px;
+			 }
+			 div div div .hd{
+			 	/*头部*/
+					border: 1px ;
+					position: absolute;
+					width: 435px;
+					height: 50px;
+					float: left;
+					font-size: 12px;
+			 }
+			 div div div #hd1{
+			 	/*要闻标题*/
+					position: absolute;
+					left: 15px;
+					top: 10px;
+				}
+			div div div #hd2{
+				/*抗肺炎*/
+					position: absolute;
+					left: 105px;
+					top: 10px;
+				}
+			div div div #hd3{
+				/*广东新闻*/
+					position: absolute;
+					left: 205px;
+					top: 10px;
+				}
+			div div div #span1{
+					border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					left: 75px;
+					top: 15px;
+					
+				}
+			div div div #span2{
+					border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					top: 15px;
+					left: 180px;
+				}
+			div div div div #weather{
+				position: absolute;
+				top: 10px;
+				left: 300px;
+			}
+			div div div div #span1{
+				border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					left: 75px;
+					top: 15px;
+			}
+			div div div div #span2{
+				border: 1px solid silver;
+					height: 15px;
+					position: absolute;
+					top: 15px;
+					left: 180px;
+			}
+			div div div .bd{
+				border: 1px 
+					height: 1050px;
+					width: 435px;
+					position: absolute;
+					top: 50px;
+					left: 0px;
+			}
+			#newsword1{
+				/*要闻1文字*/
+				position: absolute;
+				left: 240px;
+				top: 350px;
+			}
+			#newsword2{
+				/*要闻2文字*/
+				position: absolute;
+				left: 240px;
+				top: 700px;
+			}
+			#mid{
+				/*正文一中部*/
+				border: 1px ;
+				width: 500px;
+				height: 1100px;
+				position: absolute;
+				top: 0px;
+				left: 435px;
+			}
+			.m-match #hd4{
+				border: 1px ;
+				width: 462px;
+				height: 70px;
+				position: absolute;
+				left: 937px;
+				top: 147px;
+			}
+			.m-match #bd4{
+				border: 1px ;
+				width: 462px;
+				height: 460px;
+				position: absolute;
+				left: 937px;
+				top: 217px;
+			}
+			#todayhot{
+				/*今日热点*/
+				border: 1px ;
+				width: 462px;
+				height: 422px;
+				position: absolute;
+				left: 937px;
+				top: 678px;
+			}
+			#shijuejiaodian{
+				/*视觉焦点边框*/
+				border: 1px ;
+				width: 1400px;
+				height: 230px;
+				position: absolute;
+				top: 1402px;
+				left: 125px;
+			}
+			#guangao2{
+				/*第二个广告*/
+				border: 1px ;
+				width: 1400px ;
+				height: 100px;
+				position: absolute;
+				left: 125px;
+				top: 1640px;
+			}
+			#guangao2 a{
+				margin: 8px;
+			}
+			#zhengwen2{
+				/*正文2边框*/
+				border: 1px ;
+				width: 1400px;
+				height: 2522px;
+				position: absolute;
+				left: 125px;
+				list-style: none;
+				top: 1740px;
+			}
+			.left{
+				/*正文2左边*/
+				border: 1px ;
+				width: 930px;
+				height: 2522px;
+			}
+			.right{
+				/*正文2右边*/
+				border: 1px ;
+				width: 470px;
+				height: 2522px;
+				position: absolute;
+				top: 0px;
+				left: 930px;
+			}
+			#shiping{
+				border: 1px ;
+				width: 1400px;
+				height: 320px;
+				position: absolute;
+				left: 120px;
+				top: 4270px;
+			}
+			#guangao3{
+				border: 1px ;
+				width: 1400px;
+				height: 100px;
+				position: absolute;
+				top: 4590px;
+				left: 120px;
+			}
+			#zhengwen3{
+				border: 1px ;
+				width: 1400px;
+				height: 850px;
+				position: absolute;
+				top: 4700px;
+				left: 120px;
+				float: left;
+			}
+			#gaoqingzutu{
+				border: 1px ;
+				width: 1400px;
+				height: 220px;
+				position: absolute;
+				top: 5530px;
+				left: 120px;
+			}
+			#guangao4{
+				border: 1px ;
+				width: 1400px;
+				height: 120px;
+				position: absolute;
+				top: 5750px;
+				left: 120px;
+			}
+			#last{
+				border: 1px ;
+				width: 1400px;
+				height: 237px;
+				position: absolute;
+				top: 5870px;
+				left: 120px;
+			}
+		</style>
+	</head>
+	<body>
+		<div >		
+			<div id="head">
+			<!--头顶-->
+				<a href="https://news.qq.com/zt2020/lianghui2020/index.htm"><img src="顶层/头部.jpg"/></a>
+			</div>
+			<a >
+					<form id="sousuokuang" action="https://www.sogou.com/?hdq=sogou-wsse-3f7bcd0b3ea82268">
+						<input type="text" name="wd" >
+						<input type="submit"  value="搜狗搜索" />
+					</form>
+
+			</a>
+			<ul class="sousuo">
+			<!--搜索框-->	
+				<a href="https://www.qq.com/" ><img src="搜索/腾讯网.jpg"/></a>
+
+				<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101487368&redirect_uri=https%3A%2F%2Fpacaio.match.qq.com%2Fqq%2FloginBack%3Fsurl%3Dhttps%3A%2F%2Fwww.qq.com%2F&state=5b481c68e379d" id="right">
+					<img src="搜索/登录.jpg"/></a>
+					<a href="https://mail.qq.com/" id="right"><img src="搜索/邮箱.jpg"/></a>
+					<a href="https://qzone.qq.com/" id="right"><img src="搜索/QQ空间.jpg"/></a>
+					
+					
+
+			</ul>
+			<div class="biankuang">
+				<ul>
+					<li><a href="https://www.qq.com/" class="shangkuang" target="_blank">新闻</a></li>
+					<li><a href="https://v.qq.com/" class="shangkuang" target="_blank">视频</a></li>
+					<li><a href="https://new.qq.com/ch/photo/" class="shangkuang" target="_blank">图片</a></li>
+					<li><a href="https://new.qq.com/ch/milite/" class="shangkuang" target="_blank">军事</a></li>
+					<li><a href="https://sports.qq.com/" class="shangkuang" target="_blank">体育</a></li>
+					<li><a href="https://sports.qq.com/nba/" class="shangkuang" target="_blank">NBA</a></li>
+					<li><a href="https://new.qq.com/ch/ent/" class="shangkuang" target="_blank">娱乐</a></li>
+					<li><a href="https://new.qq.com/ch/finance/" class="shangkuang" target="_blank">财经</a></li>
+					<li><a href="https://new.qq.com/ch/tech/" class="shangkuang" target="_blank">科技</a></li>
+					<li><a href="https://new.qq.com/ch/fashion/" class="shangkuang" target="_blank">时尚</a></li>
+					<li><a href="https://auto.qq.com/" class="shangkuang" target="_blank">汽车</a></li>
+					<li><a href="https://house.qq.com/" class="shangkuang" target="_blank">房产</a></li>
+					<li><a href="https://new.qq.com/ch/edu/" class="shangkuang" target="_blank">教育</a></li>
+					<li><a href="https://new.qq.com/ch/cul/" class="shangkuang" target="_blank">文化</a></li>
+					<li><a href="https://new.qq.com/ch/astro/" class="shangkuang" target="_blank">星座</a></li>
+					<li><a href="https://new.qq.com/ch/games/" class="shangkuang" target="_blank">游戏</a></li> 
+				</ul>
+			</div>
+			<div id="guangao1">
+				<!--广告部分-->
+				<a href="https://viloran.svw-volkswagen.com/?mz_ca=2169686&mz_sp=7aDfx&mz_sb=1" id="qiche1"><img src="广告/汽车1.jpg"/></a>
+				<a href="https://110.qq.com/"><img src="广告/网警1.jpg"/ id="wangjin1"></a>
+			</div>
+			<div id="zhengwen1">
+				<!--正页-->			
+				<div id="outside">
+					<!--正文1-->
+					<div id="left">
+						<!--左边-->
+						<div class="hd">
+							<!--标题部分-->
+							<h2 id="hd1"><a href="https://news.qq.com/" target="_blank">要闻</a></h2>
+							<span id="span1"></span>
+							<h2 id="hd2"><a href="https://new.qq.com/ch/antip/" target="_blank">抗肺炎</a></h2>
+							<span id="span2"></span>
+							<h2 id="hd3"><a href="https://gd.qq.com/">广东新闻</a></h2>
+							<a id="weather" href="https://tianqi.qq.com/?province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E4%B8%9C%E8%8E%9E%E5%B8%82" target="_blank" id="weather"><img src="正文1/天气.jpg"/></a>
+						</div>
+						<div class="bd">
+							<!--内容部分-->
+							<div id="left1">
+								<ul>
+									<li class="first"><a target="_blank" href="https://new.qq.com/omn/20200528/20200528V0DPHM00.html">微视频：习近平今年两会上的新语新论</a></li>
+									<li class="second"><a target="_blank" href="https://new.qq.com/omn/20200528/20200528A0QKXL00.html">非常两会，习近平生动诠释这一理念</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/TWF20200/TWF2020052900352800.html">坚持人民至上 决胜全面小康</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A02AI400.html">社论：凝聚智慧力量 迈上新的征程</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/20200528/20200528A0J4GG00.html">政府工作报告中的“任务单”有了怎样的“施工图”？</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/20200528/20200528A0QJQ800.html">新华社评论员：法治建设的里程碑</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A01RLL00.html">两会这组海报，看完有数！ 风雨无阻 奋勇前行</a></li>
+									<li class="third"><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A03ACE00.html">“人民至上、生命至上”的生动“证词”</a></li>
+								</ul>
+								<ul>
+									<li>
+										<div >
+											<a target="_blank" id="newsphoto1" href="https://new.qq.com/omn/20200529/20200529A01ZT500.html"><img src="正文1/要闻图片1.jpg"/></a>
+										</div>
+										<div id="newsword1">
+											<a target="_blank" href="https://new.qq.com/omn/20200529/20200529A01ZT500.html">外媒：8国可申请“绿色通道”包机赴华</a>										
+										</div>
+									</li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A0RQT500.html">香港财政司长：两年前已对美打击金融市场作足准备</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200530/20200530A07JE900.html">我国夏粮大面积开镰收割</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A0S0P100.html">报告显示：2019年实施的更大规模减税降费政策取得成效</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A0GG2N00.html">小型微利企业和个体工商户缓缴所得税！解读来了</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200530/20200530A03G0U00.html">“黑人之死”抗议活动蔓延至华盛顿 白宫一度紧急封锁</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/TWF20200/TWF2020053000196100.html">“史上最差国务卿”蓬佩奥正疯狂地把美国拖入“黑洞”</a></li>
+								</ul>
+								<ul>
+									<li>
+										<div >
+											<a id="newsphoto2" target="_blank" href="https://new.qq.com/omn/20200530/20200530A01ZP600.html"><img src="正文1/要闻图片2.jpg"/></a>
+										</div>
+										<div id="newsword2">
+											<a target="_blank" href="https://new.qq.com/omn/20200530/20200530A01ZP600.html">一箭双星！新技术试验卫星G星、H星发射成功</a>
+										</div>
+									</li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A0QJVB00.html">把钱花在刀刃上，直达民生就是直达民心</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200528/20200528V0P68W00.html">如果奇迹有颜色，那一定是人民红</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200528/20200528A0NEX100.html">人民网评：两会闭幕时，扬帆再出发</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200529/20200529A0JP1V00.html">冰城警花在疫情防控一线铿锵绽放</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200528/20200528A0M7IO00.html">75岁老人的战“疫”正能量</a></li>
+								</ul>
+						</div>
+					</div>
+					<div id="mid">
+						<!--中间-->
+						<div class="hd1">
+							<!--标题-->
+							<h2 class="tit">今日话题</h2>
+							
+						</div>
+						<div class="bd1">
+							<!--内容-->
+							<ul>
+								<li class="first"><a href="https://new.qq.com/omn/20200529/20200529A0AKD900.html">后浪进城，为何越来越慢、越来越难？</a></li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/26122">侠客岛</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200529A0LNFT00">关于“孟晚舟案”，加拿大很无辜吗？</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/58">央视新闻</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200531A04R1400"> 美国“退群”世卫组织：欧盟敦促“你再想想”</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/5107513">较真</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200530A04EH000"> 降胆固醇有害要多吃猪油？选择性呈现证据危害大</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/3285">棱镜</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200530A08NG500">北京二手房5月成交过2万套，“3.17”调控后单月最高</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/5378209">潜望</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200531A02W6J00">十年磨一剑 美国载人航天事业开启新篇章</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/1033">新闻哥</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200528A0OM8X00"> 歌手自曝改身份钻高考空子：你们不懂我的悲哀</a>
+								</li>
+							</ul>
+							<ul>
+								<!--眼界-->
+								<div >
+									<li>
+										<a target="_blank" href="https://new.qq.com/ch/ori/"><img src="正文1/眼界.jpg"/></a>
+									</li>
+								</div>
+							</ul>
+							<ul>
+								<li>
+									<div >
+										<a target="_blank" href="https://v.qq.com/x/cover/mzc002002m80zmr/n0971pp8r2y.html?"><img src="正文1/今日话题视频.jpg"/></a>
+									</div>
+									<div id="newsword3">
+										<a target="_blank" href="https://v.qq.com/x/cover/mzc002002m80zmr/n0971pp8r2y.html?">6岁小孩沉迷iPad“成瘾”：这是我唯一的乐趣</a>
+									</div>
+								</li>
+								<li>
+									<a target="_blank" href="https://v.qq.com/x/cover/mzc002002m80zmr/c0970rs05ga.html?">[看点] 从数字课堂到森林学校 孩子该拥抱科技还是大自然？</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://v.qq.com/x/cover/mzc002002m80zmr/e097290k7of.html?">[看点] 一本天价漫画书值69万人民币？网友直呼想象不到</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://v.qq.com/detail/8/84842.html">十三邀</a>
+									<span>|</span>
+									<a target="_blank" href="https://v.qq.com/x/page/f0972ohxu5r.html?">许知远希望和嘉宾建立亲密感 曾对倪大红说特别喜欢你</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://v.qq.com/detail/8/85898.html">剥洋葱</a>
+									<span>|</span>
+									<a target="_blank" href="https://v.qq.com/x/cover/mzc00200d6bisrz/j0969zzbd6w.html?">浑水创始人谈死亡威胁：想把发信人摁进马桶</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://v.qq.com/detail/8/85820.html">冰点视频</a>
+									<span>|</span>
+									<a target="_blank" href="https://v.qq.com/x/cover/mzc00200bahaqvj/s09688q8nd5.html?">感控护士6小时接待90人 疑心理障碍不敢告诉妈妈 </a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/ch/photo/"><img src="正文1/眼界.jpg"/></a>
+								</li>
+								<li>
+									<div >
+										<a target="_blank" href="https://new.qq.com/rain/a/20200528A0MHQT00"><img src="正文1/今日话题视频2.jpg"/></a>
+									</div>
+									<div id="newsword4">
+										<a target="_blank" href="https://new.qq.com/rain/a/20200528A0MHQT00">10年前，60岁失独母亲冒死生下双胞胎，还想活到女儿出嫁</a>
+									</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/15329577">萤火计划</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200520A0HD4X00">我六七十岁了，爱人却活成了四五岁的小孩</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/5505476">谷雨</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200528A0PPXI00">终结豪车落满6年灰催泪假消息后 起底自媒体爆款生产秘密</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://sports.qq.com/photo/">体坛</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/omn/20200531/20200531A098P100.html">中国女排众将童年照：张常宁变化大</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/omn/author/6853487">认真映画</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/omn/20200523/20200528A0M30D00">仝卓自曝高考舞弊，雷佳音曝隐私惹哭汤唯</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://new.qq.com/ch/fashion/">时尚圈</a>
+									<span>|</span>
+									<a target="_blank" href="https://new.qq.com/rain/a/20200522A0AZMD00">穿背心的男人，不一定是大爷</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="right">
+					<!--右边-->
+						<div class="f14">
+							<!--正文右上边框框-->
+							<ul>
+								<li class="pord-1">
+									<a target="_blank" href="https://news.qq.com/mobile/">新闻APP</a>
+									<a target="_blank" href="https://sports.qq.com/kbsweb/">体育APP</a>
+									<a target="_blank" href="https://om.qq.com/userAuth/index">企鹅号</a>
+									<a target="_blank" href="http://kuaibao.qq.com/">快报</a>
+									<a target="_blank" href="http://v.qq.com/download.html#pc">视频</a>
+									<a target="_blank" href="https://browser.qq.com/">预览器</a>
+									<a target="_blank" href="https://www.weishi.com/">微视</a>
+									<img src="正文1/正文1手机.jpg"/>
+								</li>
+								<li class="pord-2">
+									<a target="_blank" href="https://weixin.qq.com/">微信</a>
+									<a target="_blank" href="https://im.qq.com/index.shtml">QQ</a>
+									<a target="_blank" href="https://qzone.qq.com/">空间</a>
+									<a target="_blank" href="https://work.weixin.qq.com/wework_admin/register_wx?from=regopt_tlogo_wxcbar_tengxunwang">企业微信</a>
+									<a target="_blank" href="https://mail.qq.com/cgi-bin/loginpage">邮箱</a>
+									<a target="_blank" href="https://cloud.tencent.com/?fromSource=gwzcw.756432.756432.756432">腾讯云</a>
+									<a target="_blank" href="https://guanjia.qq.com/?ADTAG=news.qqcom">电脑管家</a>
+									<a target="_blank" href="https://vip.qq.com/">会员</a>
+									<img src="正文1/正文1收藏.jpg"/>
+								</li>
+								<li class="pord-3">
+									<a target="_blank" href="http://lol.qq.com/main.shtml">LOL</a>
+									<a target="_blank" href="http://dnf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation">DNF</a>
+									<a target="_blank" href="http://cf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation">CF</a>
+									<a target="_blank" href="http://pvp.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation">王者</a>
+									<a target="_blank" href="https://gouhuo.qq.com/?ADTAG=QQHOME">单机游戏</a>
+									<a target="_blank" href="http://huoying.qq.com/act/a20141009landingpage/index.htm?via=45&ADTAG=ied.neiguang&ADTAG=media.innerenter.qqcom.index_navigation">火影ol</a>
+									<a target="_blank" href="http://wuxia.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation">天刀</a>
+									<a target="_blank" href="https://iwan.qq.com/pcwebsite/game">爱玩</a>
+									<a target="_blank" href="nz.qq.com/main.shtml?ADTAG=media.innerenter.qqcom.index_navigation">逆战</a>
+									<img src="正文1/正文1游戏.jpg"/>
+								</li>
+								<li class="pord-4">
+									<a target="_blank" href="https://pc.qq.com/">软件</a>
+									<a target="_blank" href="https://pay.qq.com/">Q币</a>
+									<a target="_blank" href="https://www.jd.com/?utm_source=qq.com&utm_medium=cpc&utm_campaign=dmp_77&utm_term=dmp_77_11727_d604816f27c2b5e98ae51fd59de8b1c43abfdac_1538472240">京东</a>
+									<a target="_blank" href="https://map.qq.com/#city=%D6%D0%B9%FA&wd=%D6%D0%B9%FA">腾讯地图</a>
+									<a target="_blank" href="https://docs.qq.com/">腾讯文档</a>
+									<a target="_blank" href="https://www.qq.com/map/"><img src="正文1/正文1全部.jpg"/></a>
+									<img src="正文1/正文1下午茶.jpg"/>
+								</li>
+							</ul>
+						</div>
+						<div class="m-match">
+							<!--热门赛事-->
+							<div id="hd4">
+								<div class="tit">
+									<a target="_blank" href="https://kbs.sports.qq.com/#hot" target="_blank">今日赛事</a>
+								</div>
+								<div id="fr">
+									<a target="_blank" href="https://kbs.sports.qq.com/#hot" target="_blank">
+										<span>6月1日</span>
+										<span></span>
+										<span>晚上好，今天有21场热门比赛</span>
+									</a>
+								</div>
+							</div>
+							<div id="bd4">
+								<ul>
+									<li><a href="https://v.qq.com/x/cover/mzc002004ym4hkz/s00347wr14z.html?"><img src="正文1/正文1视频1.jpg"/></a></li>
+									<li><a href="https://new.qq.com/rain/a/20200602A03I7O00">CBA功勋外援哈德森在美国参与游行时被捕 </a></li>
+									<li><a href="https://v.sports.qq.com/#/cover/mzc00200dgjwkzx/q0034yxk49g">NBA22队复赛方案获认可 预计将以压倒性优势通过</a></li>
+									<li><a href="https://v.qq.com/x/cover/mzc002004muggp2/y0034i4lr0p.html?">何雯娜与老公办“云婚礼” 五个月大女儿呆萌亮相</a></li>
+									<li><a href="https://v.qq.com/x/cover/mzc00200l070gd9/v0034i7yub9.html?">骑上我心爱的小摩托！归化球员李可骑电动车逛北京</a></li>
+									<li><a href="https://v.qq.com/x/cover/mzc002000w84lth/t00342f282t.html?">《有球必应》杨毅徐静雨激辩：谁是NBA最佳建队核心？</a></li>
+								</ul>
+							</div>
+						</div>
+						<div id="todayhot">
+							<div id="">
+								<h2><a target="_blank" href="https://v.qq.com/"><img src="正文1/今日热播.jpg"/></a></h2>
+							</div>
+							<div class="bd2">
+								<ul>
+									<li>
+										<div id="">
+											<a target="_blank" href="https://v.qq.com/x/cover/mzc002004ysetzf/z0975ogq8ww.html?"><img src="正文1/今日热播视频1.jpg"/></a>
+										</div>
+										<div id="newsphoto3">
+											<a target="_blank" href="https://v.qq.com/x/page/b0975w0pn9g.html?"><img src="正文1/今日热播视频2.jpg"/></a>
+										</div>
+									</li>
+									<li><a target="_blank" href="https://v.qq.com/x/page/z0975xmjrl3.html?">弗洛伊德独立尸检报告公布：颈部和背部持续受压 窒息而死</a></li>
+									<li><a target="_blank" href="https://v.qq.com/x/page/z0975fiob4u.html?">印度泰姬陵遭雷暴重击：正门和围栏受损 主体结构未受影响</a></li>
+									<li><a target="_blank" href="https://v.qq.com/x/page/p0975dlyur8.html?">送别！42岁支援绥芬河医生突发呼吸心脏骤停 抢救无效去世</a></li>
+									<li><a target="_blank" href="https://v.qq.com/x/page/i0975p44igi.html?">矿业巨头炸毁有4.6万年历史的岩洞遗址 集团CEO随后道歉</a></li>
+									<li><a target="_blank" href="https://v.qq.com/x/page/o0975fday4k.html?">博士生在派出所完成线上答辩：家里突然停电 只好求助民警</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+		</div>
+			<div id="shijuejiaodian">
+				<!--视频焦点-->
+				<div id="">
+					<a target="_blank" href="https://new.qq.com/ch/photo/"><img src="视觉焦点/视觉焦点.jpg"/></a>
+				</div>
+				<div id="">
+					<ul>
+						<li>
+							<a target="_blank" href="https://new.qq.com/rain/a/20200602A02OHW00#p=1">
+								<img src="视觉焦点/视觉焦点1.jpg"/>
+								<p>咖啡T《宁厂古镇》</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200509/20200509A0APA400.html#p=1">
+								<img src="视觉焦点/视觉焦点2.jpg"/>
+								<p>2千多年的稻田山</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200513/20200513A07IYW00.html#p=1">
+								<img src="视觉焦点/视觉焦点3.jpg"/> 
+								<p>车窗外面的世界</p>			
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200515/20200515A03NRO00.html#p=1">
+								<img src="视觉焦点/视觉焦点4.jpg"/>
+								<p>艺术家打造一个“特殊口罩”</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200510/20200510A067FZ00.html#p=1">
+								<img src="视觉焦点/视觉焦点5.jpg"/>
+								<p>艺术家“叠”出创意男性肖像</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200505/20200505A0B5KD00.html#p=1">
+								<img src="视觉焦点/视觉焦点6.jpg"/>
+								<p>满了高科技元素</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="guangao2">
+				<a href="https://news.qq.com/mobile/index.htm"><img src="广告/腾讯新闻.jpg"/></a>
+				<a href="https://www.saicskoda.com.cn/66festival/index.html?mz_ca=2166598&mz_sp=7ZeL9&mz_sb=1"><img src="广告/汽车2.jpg"/></a>
+			</div>
+			<div id="zhengwen2">
+				<div class="left">
+					<div id="text2leftno1">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://new.qq.com/ch/ent/">娱乐</a>
+							<span>
+								<a target="_blank" class="txt" href="https://new.qq.com/ch2/tv">电视剧</a>
+								<a target="_blank" class="txt" href="https://new.qq.com/ch2/movie">电影</a>
+								<a target="_blank" class="txt" href="https://new.qq.com/ch2/music">音乐</a>
+							</span>
+							<ul>
+								<li><a target="_blank" class="no1" href="https://new.qq.com/omn/author/32">贵圈</a></li>
+								<li><a target="_blank" class="no2" href="https://new.qq.com/omn/author/26135">懂小姐</a></li>
+								<li><a target="_blank" class="no3" href="https://new.qq.com/omn/author/6853487">认真应画</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/20200604A07I0L00"><img src="正文2/正文2娱乐.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/20200604A07I0L00">被热搜误解的内地第一女团</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/20200604A07I0L00">影视产业观察 </a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/ENT2020060400116800">《燃烧》导演谈涉案剧创作：别为反转而反转，要刻画人性</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A025B000">法国公主骑摩托遭遇恐怖车祸，受重伤陷入昏迷情况危急</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A003MT00">换掉王力宏牵手许光汉，想要变年轻的娃哈哈走对了吗？</a></li>
+										<li><a target="_blank" href="https://new.qq.com/zt/template/?id=ENT2020060300476100">薇娅收到卡姆所属公司道歉信 笑果文化：必将严肃反思</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200603/20200603A02V8200.html">台媒曝伊能静18岁儿子真实取向，因酷爱长发女装掀起家变</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0EJ0900">脱口秀演员卡姆与女友吸毒被抓，女方身份曝光</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-tit">
+									<a href="https://new.qq.com/rain/a/20200603A0GJMY00">于正又来爆料了！这ABCDE唱哪出呢？</a>
+									<span class="left-right-tit-span"></span>
+								</div>
+								<ul class="left-right-tit-word">
+									<li><a target="_blank" href="https://new.qq.com/rain/a/ENT2020060400116800">《燃烧》导演谈涉案剧创作：别为反转而反转，要刻画人性</a></li>
+									<li><a target="_blank" href="https://new.qq.com/zt/template/?id=ENT2020053000172200">网曝仝卓母亲是煤老板 名下5处房产被拍卖成老赖</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A07I0L00">被热搜误解的内地第一女团</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604V07PLI00.html">张大奕直播卖货态度恶劣，粉丝没及时付款被她骂：很贱</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A025B000">法国公主骑摩托遭遇恐怖车祸，受重伤陷入昏迷情况危急</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A08T3K00.html">老板娘当腻了？39岁张萌参加女团选秀恐怕是“另有所图”</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604V0QAB800.html">林志颖下厨着火烫伤，婆婆吓到手忙脚乱，陈若仪却呆若木鸡</a></li>
+								</ul>
+							</div>
+						</div>						
+					</div>
+					<div id="text2leftno2">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://sports.qq.com/">体育</a>
+							<span>
+								<a target="_blank" class="txt" href="https://sports.qq.com/csocce/csl/">中超</a>
+								<a target="_blank" class="txt" href="https://sports.qq.com/cba/">CBA</a>
+								<a target="_blank" class="txt" href="https://sports.qq.com/premierleague/">英超</a>
+								<a target="_blank" class="txt" href="https://fans.sports.qq.com/#/">社区</a>
+							</span>
+							<ul>
+								<li><a target="_blank"  href="https://sports.qq.com/marvellous12/">地表最强12人赛</a></li>
+								<li><a target="_blank"  href="https://v.qq.com/detail/8/81602.html">有球必应</a></li>
+								<li><a target="_blank"  href="https://sports.qq.com/nbavideo/kqtg/">看球听歌</a></li>
+								<li><a target="_blank"  href="https://v.qq.com/detail/5/52906.html">中场不安定</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400371000"><img src="正文2/正文2体育.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/SPO2020060400371000">马拉多纳胖成气球？辟谣了：不是本人 是饰演老马的演员</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/SPO2020060400371000">腾讯体育 3评 </a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A04F4900">Uzi退役 EDG官方发布一张合影照 虐哭无数LPL粉丝</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060400101500.html">马德兴：亚冠采用分阶段赛会制 最早9月重启 12月5日决赛</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A025LC00.html">绝了！31岁德甲名将替补出场17秒破门 16年神奇纪录诞生</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A02LML00.html">活塞宣布开放训练设施 联盟仅剩马刺选择继续闭馆</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A01KVG00.html">热火领袖归队！巴特勒已返回迈阿密 等待赛季重启</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A026MQ00.html">曝曼城将突袭米兰，5000万挖米兰真核，瓜迪奥拉亲自致电</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-photo">
+									<a href="https://kbs.sports.qq.com/kbsweb/game.htm?mid=100002:20210169"><img src="正文2/正文2体育2.jpg"/></a>
+								</div>
+								<ul class="left-right-photo-word">
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500092500.html">“夜魔”托尼弗格森的摧毁力有多强？和他打过的都身受重伤</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500092200.html">东南亚最凶狠的格斗比赛，不戴拳套比泰拳更凶狠！</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500088900.html">梅西惊天头槌&小贝圆月弯刀！曼联巴萨交锋史经典进球</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500087900.html">一脚连中4次门柱！这个门将的乌龙不是一般人能做到的</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500083000.html">他就是外星人来过地球的证明 他就是罗纳尔多</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500080300.html">脚踏风火轮！来看巅峰大圣贝尔的极限速度有多强</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div id="text2leftno3">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://new.qq.com/ch/finance/">财经</a>
+							<span>
+								<a target="_blank" class="txt" href="https://new.qq.com/ch/finance_stock/">证券</a>
+								<a target="_blank" class="txt" href="https://new.qq.com/ch/finance_licai/">理财</a>
+							</span>
+							<ul>
+								<li><a target="_blank"  href="https://new.qq.com/omn/author/5178949">第一财经</a></li>
+								<li><a target="_blank"  href="https://new.qq.com/omn/author/5564731">界面新闻</a></li>
+								<li><a target="_blank"  href="https://new.qq.com/omn/author/5005722">每日经济新闻</a></li>
+								<li><a target="_blank"  href="https://new.qq.com/omn/author/5373662">财约你</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/20200604A037VN00"><img src="正文2/正文2财经.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/20200604A037VN00">灼见 | “一妻多夫”能解决人口问题？有点扯了！</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/20200604A037VN00">腾讯新闻灼见 1274评 </a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/FIN2020060400307600">酒业观察丨疫情催生的酒业新营销，你选哪一款？</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/FIN2020060400184700">新三板开户数破百万 千亿资金候场精选层打新</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A04U8C00">反思陈春花现象：商业大师为何没有专业判断力？</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A00VON00">多地银行陆续启动“人才贷” 金融支持中小微企业再多一渠道</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/FIN2020060400128600">黄金还有一个噩耗：9月前 这个利好仍将缺席</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200603/20200603A01BAZ00.html">保险也试水直播带货模式 监管锁定短视频、直播营销渠道整治</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-photo">
+									<a href="http://gu.qq.com/sh000001/zs"><img src="正文2/正文2财经2.jpg"/></a>
+								</div>
+								<ul class="left-right-photo-word">
+									<li><a target="_blank" href="https://new.qq.com/omn/FIN20200/FIN2020060500368500.html">T+0：资本市场改革的必由之路 废除T+1迫在眉睫</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A099O000.html">ST藏格7连板后收关注函：是否存内幕交易？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A08S3W00.html">外媒：如果LVMH提议降低收购价格，蒂芙尼准备起诉</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A07YDK00.html">造不出第二个张大奕的如涵，还需重新讲个好故事</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A08FR300.html">民航局调整国际客运航班政策，相关概念股投资价值凸显</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A06F2N00.html">28万股民的焦虑，乐视网进入退市整理期，今日开盘跌停</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="text2leftno4">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://sports.qq.com/nba/">NBA</a>
+							<ul>
+								<li><a target="_blank"  href="https://sports.qq.com/nbavideo/">MBA视频</a></li>
+								<li><a target="_blank"  href="https://sports.qq.com/nbavideo/topsk/">TOP时刻</a></li>
+								<li><a target="_blank"  href="https://nba.stats.qq.com/stats/">数据中心</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400227200"><img src="正文2/正文2NBA.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/SPO2020060400227200">十大压哨绝杀高手之约翰逊 8次杀人诛心被誉为当代乔丹</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/SPO2020060400227200">腾讯体育 26评</a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400186000">你们对力量一无所知！看状元郎锡安生抢字母哥</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400124200">NBA罚款年均超3千万！詹皇也上榜 假摔被罚5千创队史纪录</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400185000">终于有个中国球员登上奥胖五大囧了~姚明：我太难了！</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060300145900">疯狂的篮球：考辛斯搓起螺旋丸 一起看鹈鹕下饭集锦</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400103900">三分时代人人都是射手！NBA2019-20赛季超远三分大合集</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A07GZS00">2002年今天：湖人抢七加时力克国王 连续第3年杀进总决赛</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-photo">
+									<a href="https://kbs.sports.qq.com/#nba"><img src="正文2/正文2NBA2.jpg"/></a>
+								</div>
+								<ul class="left-right-photo-word">
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060500135300.html">想回到过去！这会是卡特生涯最后1个进球吗？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A007Z300.html">两位断臂篮球少年、33岁NBA菜鸟，那些关于梦想的故事</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060400125000.html">难道是师弟口气太大？看格林如何被师弟花式晃倒</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060400131300.html">即将开赛你想念它了么？盘点NBA那些既搞笑又温馨的瞬间</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/SPO20200/SPO2020060400651300.html">独臂篮球少年回应库里：我超级喜欢你</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/SPO2020060400125800">欧文对阵NBA不同球队十佳球 运球风骚手感发烫</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="text2leftno5">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://new.qq.com/ch/tech/">科技</a>
+							<span>
+								<a target="_blank" class="txt" href="https://news.qq.com/zt2020/page/workday.htm">科普</a>
+							</span>
+							<ul>
+								<li><a target="_blank"  href="https://new.qq.com/zt/template/?id=TEC2019052000259700">5G资讯</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/TEC2020060300777900"><img src="正文2/正文2科技.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/TEC2020060300777900">杨元庆：联想已投资5G多年 面对风口我们不需要跟随谁</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/TEC2020060300777900">腾讯科技 1413评</a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0QC1K00">杨柘的奇幻漂流记：发迹于药企 腾飞于三星、华为</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0O3BH00">董明珠带货直播真香，但撼不动真爱</a></li>
+										<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A02U6O00.html">美国多地苹果商店遭洗劫，结果被抢的iPhone变成了砖</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603V0NYLN00">美团喘过气股价2个半月翻倍 王兴身家超雷军</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0RTYO00">B站抗癌UP主回应质疑：我已经够惨的了，不需要再卖惨</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0QCXA00">当全球社交巨头Facebook开始向TikTok买量</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-tit">
+									<a href="https://new.qq.com/omn/20200605/20200605A01F0M00.html">马斯克炮轰“宿敌”贝索斯：是时候拆分亚马逊了</a>
+									<span class="left-right-tit-span"></span>
+								</div>
+								<ul class="left-right-tit-word">
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A07KQM00">互联网大佬摆摊记：赚钱容易，骗子难防</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A0B1LC00">马斯克再放60颗星链卫星，被曝与美国军方合作</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A0OU9E00.html">Facebook推出新AI工具可直接识别图片中的物体</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/TEC20200/TEC2020060500220500.html">3个月接到投诉219宗！深圳市住建局将介入调查蛋壳公寓</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A07Z3U00.html">三大华尔街投行唱好，蔚来股价一周飙涨超30％</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A04NYW00.html">下一个瑞幸？被做空9次后，跟谁学陈向东回应一切</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/TEC20200/TEC2020060300777900.html">杨元庆：联想已投资5G多年 面对风口我们不需要跟随谁</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="text2leftno6">
+						<div class="tit-left">
+							<a target="_blank" class="txt-active" href="https://auto.qq.com/">汽车</a>
+							<ul>
+								<li><a target="_blank"  href="https://auto.qq.com/newcar.htm">重磅新车</a></li>
+								<li><a target="_blank"  href="https://data.auto.qq.com/car_brand/index.shtml"> 车型大全</a></li>
+								<li><a target="_blank"  href="http://v.qq.com/auto/"> 精彩视频</a></li>
+								<li><a target="_blank"  href="https://automall.qq.com/web"> 汽车商城</a></li>
+							</ul>
+							<span class="tit-left-line"></span>
+						</div>
+						<div class="word-left">
+							<div class="left-left">
+								<div class="left-left-tit">
+									<a target="_blank" href="https://new.qq.com/rain/a/20200604A08IJO00"><img src="正文2/正文2汽车.jpg"/></a>
+									<div class="left-left-tit-word">
+										<a class="left-left-tit-word-up" target="_blank" href="https://new.qq.com/rain/a/20200604A08IJO00">用上四缸＋48V，10万级爆款家用王再上一层楼，火定了！</a>
+										<a class="left-left-tit-word-down" target="_blank" href="https://new.qq.com/rain/a/20200604A08IJO00">玩车教授 </a>
+									</div>
+								</div>
+								<div class="left-left-bd">
+									<ul>
+										<li><a target="_blank" href="https://new.qq.com/omn/AUT20200/AUT2020060300796400.html">五菱又出“地摊神器” 股价飙涨120% 订单暴涨一车难求</a></li>
+										<li><a target="_blank" href="https://auto.qq.com/a/20200529/005141.htm">这种配件被当作原厂件销售 价格却便宜一半</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0OWYZ00">15万还能买到哪些和马自达CX30差不多的个性日系品牌SUV</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A03TCF00">戴森“夭折”电动汽车更多图片放出：方向盘亮了</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A08F0D00">比CR-V更便宜的7座SUV 本田新款BR-V正式发布</a></li>
+										<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A0RB5800">2021款昂科威横空出世，改脸增配，搭四驱，汉兰达告急</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="left-right">
+								<div class="left-right-tit">
+									<a href="https://new.qq.com/omn/20200604/20200604A0M3HG00.html">车钥匙电用光了怎么办？老司机支招，省钱又省心</a>
+									<span class="left-right-tit-span"></span>
+								</div>
+								<ul class="left-right-tit-word">
+									<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A06QK400.html">要买合资请看过来，这几款6月即将上市新车，值得一等</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A06P6T00.html">荣威RX5 PLUS试驾：动力加强换挡平顺，内外升级颇为给力</a></li>
+									<li><a target="_blank" href="https://auto.qq.com/a/20200529/005141.htm">这种配件被当作原厂件销售 价格却便宜一半</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A07RQO00.html">奔腾T99运动版实拍：空间大配置足，售价16万确定不动心？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A06NN200.html">汽车带T和带L差距能有多大？跑了300里高速，车主一肚子气</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A0AYAT00.html">“纵横”之间的显著差异 辉昂和S90的这场比拼你会挺谁？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/AUT20200/AUT2020060500041600.html">AR虚拟现实 谁能拿下自动驾驶行业的关键点</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<img id="rightphoto1" src="正文2/正文2右边框框.jpg"/>
+					<img id="rightphoto2" src="正文2/正文2为你推荐.jpg"/>
+					<div id="text2rightno1">
+						<div id="tit-rightno1">	
+							<a target="_blank" href="https://new.qq.com/omn/20200605/20200605A07OPY00.html">
+								<img src="正文2/正文2为你推荐1.jpg"/>	
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/omn/20200605/20200605A07OPY00.html"> 国青陶强龙等6人被停训：外出饮酒+夜不归宿 罚单已在路上</a>
+								<a target="_blank" class="right-right-tit-word-down" href="https://new.qq.com/omn/20200605/20200605A07OPY00.html"> 赵宇聊足球 185评论</a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A06SLN00.html?">巴西新冠肺炎病例已超64万 总统威胁退出世卫组织</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A08MF600.html">上午9点，沪媒为国青6人发声：足协取消踢联赛资格</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A05CHF00.html">这个女市长不好惹，特朗普现在很生气很无奈！</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0AB2800.html">张铭恩背着女友徐璐与胡冰卿热吻？三方回应来了</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A01SWJ00.html">“罢韩投票”今晚出结果，岛内有人感叹：无论结果如何台</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0ATWJ00.html">晚上6点！李景亮1拳KO西热力江？别闹了</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A088YN00.html">《向往的生活》跌下神坛，嘉宾全程尬聊</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0BYMN00.html">FIFA禁令？疫情OR欧冠门票？是什么让维尔纳选择了切尔西而</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="text2rightno2">
+						<div >	
+							<a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0AO2N00.html">
+								<img src="正文2/正文2为你推荐2.jpg"/>
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/omn/20200606/20200606A0AO2N00.html"> 陕西蓝田一小学女生被4名未满14岁男生侵害，律师和教育专家这样说</a>
+								<a target="_blank" class="right-right-tit-word-down" href="https://new.qq.com/omn/20200606/20200606A0AO2N00.html">楚天都市报 25评论 </a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A09VGB00.html">减重13磅！湖人新援再晒740万美金豪宅，坐私人飞机出行</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A04KH800.html">浙江女子骑车上班路上被害，嫌疑人逃了19年</a></li>
+								<li><a target="_blank" href="https://new.qq.com/zt/template/?id=FIN2020060600243400">北京发放122亿元消费券，一图看懂怎么领，如何用？</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A09B1800.html">月费不到90元！5G牌照发放一周年</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200606A06BO200">一小型飞机在美佐治亚州农村坠毁，5人全部遇难</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/rose.htm?id=DSG2020060600318600">百亿消费券怎么花最划算？</a></li>							
+							</ul>
+						</div>
+					</div>
+					<div id="text2rightno3">
+						<div class="tit-right">
+							<a target="_blank" id="special1" class="txt-active" href="https://new.qq.com/ch/milite/">军事</a>
+							<span class="tit-right-line"></span>
+						</div>
+						<div class="word-right">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A04MAV00.html">
+								<img src="正文2/正文2军事.jpg"/>
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/omn/20200607/20200607A04MAV00.html"> 《一九五八炮击金门》最后四集！你准备好了吗？</a>
+								<a target="_blank" class="right-right-tit-word-down" href="https://new.qq.com/omn/20200607/20200607A04MAV00.html">CCTV4国家记忆7评</a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A00SWO00.html">美媒：美国在造两种潜艇，而俄罗斯是6种，还有独门兵器</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0E62700.html">退役专科大学生，2022年起免试读本科</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A03OVC00.html">向祖国报告！海军第三十四批护航编队返抵传统海疆线</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607V00UJG00.html">白宫地堡长这样！特朗普：我没躲 别人建议我下去看看</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607V06LB100.html">俄罗斯官方连续发声力挺中国 我外交部点赞</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607V05H1T00.html">兵源短缺招不到人？美军“剑走偏锋”通过电竞游戏征兵</a></li>							
+							</ul>
+						</div>
+					</div>
+					<div id="text2rightno4">
+						<div class="tit-right">
+							<a target="_blank" id="special1" class="txt-active" href="https://new.qq.com/omn/author/5107513">较真</a>
+							<span class="tit-right-line"></span>
+						</div>
+						<div class="word-right">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0596D00.html">
+								<img src="正文2/正文2较真.jpg"/>
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/omn/20200607/20200607A0596D00.html">较真|营养比不上牛奶，价格也贵了好几倍，燕麦奶凭啥替代牛奶？</a>
+								<a target="_blank" class="right-right-tit-word-down" href="https://new.qq.com/omn/20200607/20200607A0596D00.html">较真36评</a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A04GNB00.html">较真 | 玩蹦床截瘫的可能性极低，但也别不加保护就裸跳</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200604/20200604A0559V00.html">较真 | 扭个脖子没那么容易瘫痪，但这几个最危险的信号</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200603A054IL00">较真丨新冠康复者能获得持续免疫力吗？</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200602/20200602A0EX1H00.html">较真 | 11岁男童玩手机成“斗鸡眼”</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200601/20200601A06ARZ00.html">较真 | 冷冻卵子怎么冻？靠谱吗？生殖医学专家带你一文读懂</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200531/20200531A08CTY00.html">较真丨儿童手足口病进入高发期，这些知识点家长要知道</a></li>							
+							</ul>
+						</div>
+					</div>
+					<div id="text2rightno5">
+						<div class="tit-right">
+							<a target="_blank" id="special1" class="txt-active" href="https://new.qq.com/ch/fashion/">时尚</a>
+							<span class="tit-right-line"></span>
+						</div>
+						<div class="word-right">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A07WX700.html">
+								<img src="正文2/正文2时尚.jpg"/>
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/omn/20200607/20200607A07WX700.html">新时尚街头风，这几套个性穿搭，拒绝平庸的夏季</a>
+								<a target="_blank" class="right-right-tit-word-down" href="https://new.qq.com/omn/20200607/20200607A07WX700.html">时尚雪姑娘</a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0ITJU00.html">古力娜扎的日常穿搭来了，肤白貌美秀好身材，青春靓丽</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200607A03DXA00">用牛仔裤改造双肩包超简单</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A035WT00.html">闺蜜穿着坡跟鞋，我穿着细高跟，才会更出彩一些</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200607A03TER00">韩式女生慵懒卷发，喜欢就赶紧尝试吧，保证你不会后悔！</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A078TX00.html">夏季百搭高腰长裤，秀腿凹造型神器，破洞9分清凉依旧</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A00FG800.html#p=1">李一桐风格百变，轻松玩转夏日时尚</a></li>							
+							</ul>
+						</div>
+					</div>
+					<div id="text2rightno6">
+						<div class="tit-right">
+							<a target="_blank" id="special1" class="txt-active" href="https://house.qq.com/">房产</a>
+							<span class="tit-right-line"></span>
+						</div>
+						<div class="word-right">
+							<a target="_blank" href="https://new.qq.com/rain/a/20200607A02ZWC00">
+								<img src="正文2/正文2房产.jpg"/>
+							</a>
+							<div class="right-right-tit-word">
+								<a target="_blank" class="right-right-tit-word-up" href="https://new.qq.com/rain/a/20200607A02ZWC00">郑州二手房挂牌量大涨，高负债买房者断供风险大了</a>
+							</div>
+						</div>
+						<div class="right-right-word">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0LHE400.html">手抖加了个“0”？！千万房产拍成1.65亿！</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200606A0OKZ600">李刚：房地产行业短期内出现大幅波动可能性比较小</a></li>
+								<li><a target="_blank" href="https://new.qq.com/rain/a/20200606A0OXME00">郑州新密“首付贷”重现：首付2万元即可网签，开发商垫资</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A011WS00.html">5万亿老旧小区改造市场：社会资本介入 盈利模式待解</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200605/20200605A0BDMM00.html">多地青客公寓爆雷？青客：运营正常，租金贷问题正在解决</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0OYZ200.html">深圳学位房出事！家长下跪背后：楼市何去何从？</a></li>							
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="shiping">
+				<div id="hd5">					
+					<a target="_blank" class="txt-active" href="https://v.qq.com/channel/variety/">综艺</a>
+					<span>
+						<a target="_blank" class="txt" href="https://v.qq.com/tv/">电视剧</a>
+						<span class="border"></span>
+						<a target="_blank" class="txt" href="https://v.qq.com/movie/">电影</a>
+						<span class="border"></span>
+						<a target="_blank" class="txt" href="https://v.qq.com/child">少儿</a>
+					</span>
+					<ul>
+						<li><a target="_blank"  href="https://v.qq.com/cartoon">动漫</a></li>
+						<li><a target="_blank"  href="https://v.qq.com/sports/">体育</a></li>
+						<li><a target="_blank"  href="https://v.qq.com/channel/doco"> 纪录片</a></li>
+						<li><a target="_blank"  href="https://v.qq.com/x/cover/jx7g4sm320sqm7i/y0027ta8e2a.html?">风位人间</a></li>
+					</ul>
+					<span class="tit-left-line"></span>
+				</div>
+				<div id="bd5">
+					<a target="_blank"  href="https://v.qq.com/x/cover/mzc00200mlkjj0i.html?"><img src="视频/视频 视频1.jpg"/></a>
+					<a target="_blank"  href="https://v.qq.com/x/cover/82tnyho7rqlz8z3/w00299yv9z3.html?"><img src="视频/视频 视频2.jpg"/></a>
+					<a target="_blank"  href="https://v.qq.com/x/cover/q9fcxubnjow4epa/h05243t21xo.html?"><img src="视频/视频 视频3.jpg"/></a>
+					<a target="_blank"  href="https://v.qq.com/x/cover/mzc00200bbp3ilw.html?"><img src="视频/视频 视频4.jpg"/></a>
+					<a target="_blank"  href="https://v.qq.com/x/cover/jlj6rvcl04ca0ao/j0025tzewr9.html?"><img src="视频/视频 视频5.jpg"/></a>
+				</div>
+			</div>
+			<div id="guangao3">
+				<a target="_blank" href="https://news.qq.com/mobile/index.htm"><img src="广告/腾讯新闻.jpg"/></a>
+				<a target="_blank" href="https://www.saicskoda.com.cn/karoq/index.html?media=qqcom&mz_ca=2166598&mz_sp=7ZeLA&mz_sb=1"><img src="广告/汽车3.jpg"/></a>
+			</div>
+			<div id="zhengwen3">
+				<div id="text3no1">
+					<div class="hd3">
+						<a target="_blank" class="txt-active" target="_blank" href="https://new.qq.com/ch/edu/">教育</a>
+						<span class="line"></span>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y900.html"><img src="正文3/正文3 教育.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y900.html">小衰衰和脸脸“离桌”，但小衰衰要每个月支付小兔的生活费</a>
+								<a class="up-word-down" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y900.html">清风小生活</a>
+							</div>
+						</div>
+						<div class="down">
+							<ul>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A57S00.html">19届的毕业生，你们今天还好吗？</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A5IZ00.html">为了在考试上“走后门”，奋豆说出一句大逆不道的话语？</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A0FJ00.html">去年的今天是高考，考场外等了一群一堆的家长</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A6XL00.html">小衰衰和脸脸成为主持人，脸脸为了形象甘心被小衰衰打</a></li>
+								<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A083IQ00.html">理科相较于文科的三大优势，过来人：后悔当初没想到</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+				<div id="text3no2">
+					<div class="hd3">
+						<a target="_blank" class="txt-active" target="_blank" href="https://new.qq.com/omn/author/41">历史</a>
+						<span class="line"></span>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AO4100.html"><img src="正文3/正文3 历史.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AO4100.html">一个落第秀才的造反人生-太平天国为何不能天国太平</a>
+								<a class="up-word-down" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AO4100.html">赵先生</a>
+							</div>
+							<div class="down">
+								<ul>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0ANQK00.html">如果纪灵和黄忠、马超、赵云三人单挑，结果如何？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A098V900.html">胆小怕事的宋高宗为何会敢御驾亲征？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0882E00.html">岳飞之死初探：忠奸格局叙事下的秦桧罪人地位再思考</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A08KNM00.html">中国八大古都，这个省占了4个</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A06O1A00.html">洛阳出土200座古墓，其中铜方壶内或存有2千年前美酒！</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="text3no3">
+					<div class="hd3">
+						<a target="_blank" class="txt-active" target="_blank" href="https://new.qq.com/ch/cul/">文化</a>
+						<span class="line"></span>
+						<span class="border"></span>
+						<a class="txt" target="_blank" href="https://new.qq.com/ch/cul_ru/">新国风</a>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y500.html"><img src="正文3/正文3 教育.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y500.html">张廷济篆书临史颂鼎铭轴</a>
+								<a class="up-word-down" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A4Y500.html">京师书苑</a>
+							</div>
+							<div class="down">
+								<ul>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AO3800.html">以传神笔墨 勾画出一个个栩栩如生的人物肖像</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0ASM600.html">冯骥才：唐罐</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AP9O00.html">读书的三重境界</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A08LG500.html">唯一挑逗过孙悟空的女妖是谁？连如来都动心饶了她一命</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0592G00.html">金庸先生笔下，哪位女子的离世，让人觉得最遗憾？</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="text3no4">
+					<div class="hd3">
+						<a class="txt-active" target="_blank" href="https://new.qq.com/ch/astro/">星座</a>
+						<span class="line"></span>
+						<span class="border"></span>
+						<a class="txt" target="_blank" href="https://new.qq.com/ch/astro/">今日运势</a>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/rain/a/20200604A00EMF00"><img src="正文3/正午3 星座.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/rain/a/20200604A00EMF00">一节课入门占星学！著名占星师在线科普神秘的占星学</a>
+								<a class="up-word-down" target="_blank" href="https://new.qq.com/rain/a/20200604A00EMF00">腾讯星座</a>
+							</div>
+							<div class="down">
+								<ul>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A06B2R00">“第一男低音”王晰称曾没工作没出息受尽嘲笑</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200605A0669L00">易招贵人相助的生肖</a></li>
+									<li><a target="_blank" href="https://v.qq.com/live/p/topic/84620/preview.html">【直播】生命之歌今晚直播！月食——直面内在的伤痛</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200605A09GR400">十二星座过夏天的样子有多欢乐</a></li>
+									<li><a target="_blank" href="https://new.qq.com/rain/a/20200604A0HYGQ00">6月5日-9日星座运势：狮子养精蓄锐，天蝎思路清晰</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="text3no5">
+					<div class="hd3">
+						<a target="_blank" class="txt-active" target="_blank" href="https://new.qq.com/ch/games/">游戏</a>
+						<span class="line"></span>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A5SX00.html"><img src="正文3/正文3 游戏.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A5SX00.html">胡桃日记：青梅竹马养成记？蹭吃蹭喝小可爱已上线</a>
+								<a class="up-word-down" target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A5SX00.html">哇咔聊游戏</a>
+							</div>
+							<div class="down">
+								<ul>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A9QS00.html">心怀荣耀，全员战神附体，AG超玩会4：2</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0A9ZB00.html">明日方舟：图文攻略，单奶9人打法，赫墨强无敌</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0AIF400.html">最奇葩的放松方式，这群玩家竟在岩浆边上秀恩爱？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0ANNZ00.html">门派闯关快开始了！你了解获得境外旗的师徒任务吗？</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200607/20200607A0ASOA00.html">梦幻西游：玩家开宝箱被高级兽决轰炸，结果还血亏1亿</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="text3no6">
+					<div class="hd3">
+						<a target="_blank" class="txt-active" target="_blank" href="https://www.tencent.com/zh-cn/about.html">财报</a>
+						<span class="line"></span>
+					</div>
+					<div class="bd3">
+						<div class="up">
+							<a target="_blank" href="https://new.qq.com/omn/20200513/2020051306487400.html"><img src="正文3/正文3 财报.jpg"/></a>
+							<div class="up-word">
+								<a class="up-word-up" target="_blank" href="https://new.qq.com/omn/20200513/2020051306487400.html">腾讯2020年第一季度总收入1080.65亿元 同比增长26%</a>
+							</div>
+							<div class="down">
+								<ul>
+									<li><a target="_blank" href="https://new.qq.com/omn/20200318/2020031802828700.html">腾讯2019年总收入3772.89亿元 同比增长21%</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/TEC20191/TEC2019111300887000.html">腾讯2019年第三季度总收入972.36亿元 同比增长21%</a></li>
+									<li><a target="_blank" href="https://new.qq.com/omn/TEC20190/TEC2019081400803300.html">腾讯2019年第二季度净利润235.25亿元 同比增长19%</a></li>
+									<li><a target="_blank" href="https://new.qq.com/cmsn/20190515/20190515006618.html">腾讯第一季度总收入854.7亿元 同比增长16%</a></li>
+									<li><a target="_blank" href="https://new.qq.com/cmsn/20190321/20190321008183.html">腾讯2018年总收入3127亿元 同比增长32%</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="gaoqingzutu">
+				<div id="">
+					<a target="_blank" href="https://new.qq.com/ch/photo/"><img src="高清组图/高清组图.jpg"/></a>
+				</div>
+				<div id="">
+					<ul>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A08CFG00.html#p=1">
+								<img src="高清组图/高清组图1.jpg"/>
+								<p>咖啡T《宁厂古镇》</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A04VZV00.html">
+								<img src="高清组图/高清组图2.jpg"/>
+								<p>秦海璐时尚写真</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A07BYG00.html#p=1">
+								<img src="高清组图/高清组图3.jpg"/>
+								<p>我在雨中等你 巴塞罗那</p>			
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A07BXQ00.html#p=1">
+								<img src="高清组图/高清组图4.jpg"/>
+								<p>从你的城市路过</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200607/20200607A046NN00.html">
+								<img src="高清组图/高清组图5.jpg"/>
+								<p>在“非常”两会寻找非常视角</p>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://new.qq.com/omn/20200606/20200606A0IJBV00.html">
+								<img src="高清组图/高清组图6.jpg"/>
+								<p>女子花530元买下百年前的石屋</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="guangao4">
+				<a target="_blank" href="https://cxd.m0.hk/web/h5/fengshen/preview-index.html#/index"><img src="广告/汽车4.jpg"/></a>
+			</div>
+			<div id="last">
+				<div id="lastno1">
+					<ul>
+						<li><a target="_blank" href="https://www.tencent.com/">  关于腾讯</a></li>
+						<li><a target="_blank" href="https://www.tencent.com/en-us/index.html"><span class="border"></span>  About Tencent</a></li>
+						<li><a target="_blank" href="https://www.qq.com/contract.shtml"><span class="border"></span>  服务协议</a></li>
+						<li><a target="_blank" href="https://privacy.qq.com/"><span class="border"></span>  隐私政策</a></li>
+						<li><a target="_blank" href="https://open.tencent.com/"><span class="border"></span>  开放平台</a></li>
+						<li><a target="_blank" href="https://www.tencent.com/zh-cn/partnership.html"><span class="border"></span>  商务洽谈</a></li>
+						
+						<li><a target="_blank" href="https://careers.tencent.com/"><span class="border"></span>  腾讯招聘</a></li>
+						
+						<li><a target="_blank" href="https://gongyi.qq.com/"><span class="border"></span>  腾讯公益</a></li>
+						
+						<li><a target="_blank" href="https://kf.qq.com/"><span class="border"></span>  客服中心</a></li>
+						
+						<li><a target="_blank" href="https://www.qq.com/map/"><span class="border"></span>  网站导航</a></li>
+						
+						<li>
+							<a target="_blank" href="http://dldir1.qq.com/dlomg/qqcom/mini/QQNewsMini5.exe">
+							<span class="border"></span>客户端下载
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="lastno2">
+					<ul>
+						<li><a target="_blank" href="http://szwljb.sz.gov.cn/">深圳举报中心</a></li>
+						<li><a target="_blank" href="http://ga.sz.gov.cn/"><span class="border"></span>深圳公安局</a></li>
+						<li><a target="_blank" href="https://www.qq.com/dzwfggcns.htm"><span class="border"></span>抵制违法广告承诺书</a></li>
+						<li><a target="_blank" href="https://www.qq.com/copyright.shtml"><span class="border"></span> 版权保护投诉指引</a></li>
+						<li><a target="_blank" href="https://www.qq.com/copyright.shtml"><span class="border"></span> 广东省通管局</a></li>
+					</ul>
+				</div>
+				<div id="lastno3">
+					<ul>
+						<li><a target="_blank" href="https://www.qq.com/culture.shtml">粤网文[2017]6138-1456号</a></li>
+						<li><a target="_blank" href="https://www.qq.com/internet_licence.htm">新出网证（粤）字010号</a></li>
+						<li><a target="_blank" href="https://www.qq.com/cbst.shtml">网络视听许可证1904073号</a></li>
+						<li>增值电信业务经营许可证：粤B2-20090059 B2-20090028</li>
+					</ul>
+				</div>
+				<div id="lastno4">
+					<ul>
+						<li><a target="_blank" href="https://www.qq.com/scio.htm">新闻信息服务许可证</a></li>
+						<li><a target="_blank" href="https://www.qq.com/xwdz.shtml">粤府新函[2001]87号</a></li>
+						<li>违法和不良信息举报电话：0755-83765566-9</li>
+						<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030002000001">粤公网安备 44030002000001号</a></li>
+					</ul>
+				</div>
+				<div id="lastno5">
+					<ul>
+						<li><a target="_blank" href="https://www.qq.com/spyp.htm">互联网药品信息服务资格证书 （粤）—非营业性—2017-0153</a></li>
+					</ul>
+				</div>
+				<div id="lastno6">
+					<ul>
+						<li>Copyright 1998 - 2020 Tencent. All Rights Reserved</li>
+					</ul>
+				</div>
+				<div id="lastno7">
+					<ul>
+						<li><a target="_blank" href="https://www.12377.cn/"><img src="最后/最后 最后1.jpg"/></a></li>
+						<li><a target="_blank" href="http://www.wenming.cn/"><img src="最后/最后 最后2.jpg"/></a></li>
+						<li><a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=2010051300100001081&ct=df&a=1&pa=337337"><img src="最后/最后 最后3.jpg"/></li>
+						<li><a target="_blank" href="szcert.ebs.org.cn/6917b6fe-b844-4e12-97c5-85b8d1df30ed"><img src="最后/最后 最后4.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

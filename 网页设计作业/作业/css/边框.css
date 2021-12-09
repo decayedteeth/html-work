@@ -1,0 +1,37 @@
+.biankuang{
+	position: absolute;
+	top: 150px;
+}
+.biankuang ul{
+	position: absolute;
+	left: 220px;
+	top:2200px
+	border: 1px solid #1479D7;
+	width: 1160px;
+	height: 50px;
+	line-height: 35px;
+	background: #1479D7;
+}
+.biankuang ul li{
+	border: 1px;
+	width: 70px;
+	height: 15px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	background: #1479D7;
+	padding: 1px;
+}
+.biankuang ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "agency fb";
+	font-size: 14px;
+	font-weight: 700;
+	
+}
+.biankuang ul li .shangkuang:hover{
+	color: #1479D7;
+	background: white;
+}

@@ -1,0 +1,392 @@
+#text2leftno1{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.tit-left{
+	border: 1px ;
+	width: 930px;
+	height: 45px;
+}
+.word-left{
+	border: 1px ;
+	position: absolute;
+	top: 45px;
+	width: 930px;
+	height: 373px;
+	float: left;
+}
+.txt-active{
+	font-size: 24px;
+	line-height: 50px;
+	color: #1479d7;
+}
+.tit-left ul li{
+	float: right;
+	margin: 20px;
+}
+.tit-left ul li a{
+	text-decoration: none;
+	color: #404040;
+}
+.tit-left ul li a:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.txt{
+	font-size: 22px;
+	color: #404040;
+	text-decoration: none;
+	margin: 15px;
+}
+.txt:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.tit-left ul li{
+	margin: 10px;
+	position: relative;
+	top: -45px;
+	left: 0px;
+}
+.tit-left ul li a{
+    color: #64788c;
+}
+.left-left{
+	border: 1px ;
+	width: 465px;
+	height: 373px;
+}
+.left-right{
+	border: 1px ;
+	width: 464px;
+	height: 373px;
+	position: absolute;
+	top: 0px;
+	left: 464px;
+}
+.left-left-tit{
+	border: 1px ;
+	width: 461px;
+	height: 129px;
+}
+.left-left-bd{
+	border: 1px ;
+	width: 461px;
+	height: 241px;
+}
+.left-left-tit-word{
+	border: 1px ;
+	height: 127px;
+	width: 240px;
+	position: absolute;
+	left: 221px;
+	top: 0px;
+}
+.left-left-tit-word-up{
+	color: black;
+	text-decoration: none;
+}
+.left-left-tit-word-up:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.left-left-tit-word-down{
+	color: #64788c;
+	text-decoration: none;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.left-left-tit-word-down:hover{
+	text-decoration: none;
+	color:#1479d7;
+}
+.left-left-bd ul li{
+	line-height: 40px;
+}
+.left-left-bd ul li a{
+	color: black;
+	text-decoration: none;
+}
+.left-left-bd ul li a:hover{
+	color: #1479d7 ;
+}
+#text2leftno2{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 420px;
+	left: 0px;
+}
+#text2leftno3{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 840px;
+	left: 0px;
+}
+#text2leftno4{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 1260px;
+	left: 0px;
+}
+#text2leftno5{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 1680px;
+	left: 0px;
+}
+#text2leftno6{
+	border: 1px ;
+	width: 930px;
+	height: 420px;
+	position: absolute;
+	top: 2100px;
+	left: 0px;
+}
+.left-right-tit{
+	border: 1px ;
+	width:464px ;
+	height: 100px;
+}
+.left-right-tit a{
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+.left-right-tit a:hover{
+	color:#1479d7 ;
+}
+.left-right-tit-span{
+	border: 1px solid #0276DA;
+	width: 40px;
+	height: 0px;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+.left-right-tit-word li{
+	line-height: 40px;
+	text-decoration: none;
+}
+.left-right-tit-word li a{
+	color: black;
+	text-decoration: none;
+}
+.left-right-tit-word li a:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.left-right-photo{
+	position: absolute;
+	left: 10px;
+}
+.left-right-photo-word{
+	border: 1px ;
+	width: 464px;
+	height: 252px;
+	position: absolute;
+	top: 120px;
+}
+.left-right-photo-word li{
+	line-height: 43px;
+	text-decoration: none;
+}
+.left-right-photo-word li a{
+	color: black;
+	text-decoration: none;
+}
+.left-right-photo-word li a:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.tit-left-line{
+	border: 0.5px solid #0276DA;
+	width: 930px;
+	height: 0px;
+	position: absolute;
+	top: 37px;
+	left: 0px;
+}
+#rightphoto1{
+	position: absolute;
+	top: 5px;
+}
+#rightphoto2{
+	position: absolute;
+	top: 5px;
+	left: 25px;
+}
+#text2rightno1{
+	border: 1px ;
+	width: 443px;
+	height: 430px;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+#text2rightno2{
+	border: 1px ;
+	width: 443px;
+	height: 380px;
+	position: absolute;
+	top: 470px;
+	left: 25px;
+}
+#text2rightno3{
+	border: 1px ;
+	width: 470px;
+	height: 420px;
+	position: absolute;
+	top: 850px;
+	left: 20px;
+}
+#text2rightno4{
+	border: 1px ;
+	width: 470px;
+	height: 420px;
+	position: absolute;
+	top: 1270px;
+	left: 20px;
+}
+#text2rightno5{
+	border: 1px;
+	width: 470px;
+	height: 420px;
+	position: absolute;
+	top: 1690px;
+	left: 20px;
+}
+#text2rightno6{
+	border: 1px;
+	width: 470px;
+	height: 410px;
+	position: absolute;
+	top: 2110px;
+	left: 20px;
+}
+#tit-rightno1{
+	border: 1px ;
+	width: 442px;
+	height: 123px;
+}
+.right-right-tit-word{
+	border: 1px ;
+	width: 228px;
+	height: 123px;
+	position: absolute;
+	left: 215px;
+	top: -1px;
+}
+.right-right-tit-word-up{
+	color: black;
+	text-decoration: none;
+}
+.right-right-tit-word-up:hover{
+	color:#1479d7 ;
+	text-decoration: none;
+}
+.right-right-tit-word-down{
+	color: #64788c;
+	text-decoration: none;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.right-right-tit-word-down:hover{
+	text-decoration: none;
+	color:#1479d7;
+}
+.right-right-word{
+	line-height: 38px;
+}
+.right-right-word ul li a{
+	color: black;
+	text-decoration: none;
+}
+.right-right-word ul li a:hover{
+	color: #1479d7;
+	text-decoration: none;
+}
+#text2rightno2 .right-right-word{
+	line-height: 45px;
+}
+.tit-right{
+	border: 1px ;
+	width: 470px;
+	height:30px ;
+}
+.word-right{
+	border: 1px ;
+	width: 470px;
+	height:387px ;
+}
+.tit-right-line{
+	border: 0.5px solid #1479d7;
+	width: 470px;
+	position: absolute;
+	top: 26px;
+}
+#special1{
+	position: absolute;
+	top: -10px;
+}
+#text2rightno3 div .right-right-tit-word{
+	position: absolute;
+	top: 33px;
+	left: 225px;
+}
+#text2rightno3 .right-right-word{
+	position: absolute;
+	top: 150px;
+}
+#text2rightno3 .right-right-word ul li{
+	line-height: 45px;
+}
+#text2rightno4 div .right-right-tit-word{
+	position: absolute;
+	top: 33px;
+	left: 225px;
+}
+#text2rightno4 .right-right-word{
+	position: absolute;
+	top: 150px;
+}
+#text2rightno4 .right-right-word ul li{
+	line-height: 45px;
+}
+#text2rightno5 div .right-right-tit-word{
+	position: absolute;
+	top: 33px;
+	left: 225px;
+}
+#text2rightno5 .right-right-word{
+	position: absolute;
+	top: 150px;
+}
+#text2rightno5 .right-right-word ul li{
+	line-height: 45px;
+}
+#text2rightno6 div .right-right-tit-word{
+	position: absolute;
+	top: 33px;
+	left: 225px;
+}
+#text2rightno6 .right-right-word{
+	position: absolute;
+	top: 150px;
+}
+#text2rightno6 .right-right-word ul li{
+	line-height: 45px;
+}

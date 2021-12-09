@@ -1,0 +1,125 @@
+#lastno1{
+	border: 1px ;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 0px;
+}
+#lastno2{
+	border: 1px ;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+}
+#lastno3{
+	border: 1px ;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 50px;
+}
+#lastno4{
+	border: 1px;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 75px;
+}
+#lastno5{
+	border: 1px ;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 100px;
+}
+#lastno6{
+	border: 1px ;
+	height: 25px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 125px;
+}
+#lastno7{
+	border: 1px;
+	height: 80px;
+	width: 1300px;
+	position: absolute;
+	left: 40px;
+	top: 155px;
+}
+#last ul li a{
+	text-decoration: none;
+	color: #666666;
+}
+#last ul li{
+	color: #666666;
+}
+#last ul li a:hover{
+	color: #1479d7;
+}
+#lastno1 ul{
+	position: absolute;
+	left: 120px;
+}
+#lastno1 ul li{
+	float: left;
+	margin: 2px;
+}
+#last .border{
+	margin: 7px;
+}
+#lastno2 ul{
+	position: absolute;
+	left: 270px;
+}
+#lastno2 ul li{
+	float: left;
+	margin: 2px;
+}
+#lastno3 ul{
+	position: absolute;
+	left: 130px;
+}
+#lastno3 ul li{
+	float: left;
+	margin: 2px;
+}
+#lastno4 ul{
+	position: absolute;
+	left: 170px;
+}
+#lastno4 ul li{
+	float: left;
+	margin: 2px;
+}
+#lastno5 ul{
+	position: absolute;
+	left: 400px;
+}
+#lastno5 ul li{
+	float: left;
+	margin: 2px;
+}
+#lastno6 ul{
+	position: absolute;
+	left: 450px;
+}
+#lastno6 ul li{
+	float: left;
+	margin: 2px;
+}
+#lastno7 ul{
+	position: absolute;
+	left: 330px;
+}
+#lastno7 ul li{
+	float: left;
+	margin: 8px;
+}
